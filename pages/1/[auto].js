@@ -9,6 +9,7 @@ const auto = () => {
 
     console.log('[info] redirecting user to url:', url)
     window.location = url
+    window.close()
     return null
 }
 
